@@ -1,0 +1,152 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.orang {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 20px;
+  position: relative;
+  border-radius: 7px;
+}
+.tetap {
+  background-color: #3ec961;
+  color: honeydew;
+}
+.penumpang {
+  border: 4px solid#3ec961;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.role {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  left: 0;
+  text-align: center !important;
+  margin-left: 5px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.turun {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+input {
+  width: 300px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+#add {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: rgb(6, 155, 6);
+  color: honeydew;
+  margin-left: 5px;
+  margin-top: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+.bi-plus {
+  font-size: 35px;
+}
+.bi-arrow-right {
+  color: black;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+.normal {
+  font-size: 14px;
+  background-color: lawngreen;
+  text-align: center;
+  display: inline-block;
+  width: 105px;
+  height: 10px;
+}
+
+#text-info span {
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 700;
+  margin: 15px 0;
+  border-radius: 0.5rem;
+}
+#text-info span.yes {
+  background: rgba(99, 241, 96, 0.7);
+  color: #fff;
+}
+#text-info span.no {
+  background: #ffc5c5;
+  color: #ce0404;
+}
+#text-info span.no .bi {
+  margin-right: 15px;
+}
+#info-angkot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .orang {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
